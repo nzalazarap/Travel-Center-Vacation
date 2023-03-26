@@ -57,27 +57,34 @@
 
 .paquete img {
   flex: 1;
-  margin-right: 0px;
+  margin-right: 30px;
 }
 
 .paquete:nth-child(even) img {
   margin-right: 0;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .paquete h3,
 .paquete p {
+  flex: 1;
+}
+
+.contenido-izquierda {
   flex: 2;
+  text-align: left;
 }
 
 .paquete img {
   order: 1;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .paquete img {
   max-width: 30%;
 }
+
+
 
 
 /* ESTILOS DE FORMULARIO SENCILLO */
