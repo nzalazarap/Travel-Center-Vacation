@@ -1,0 +1,173 @@
+.rectangulo {
+  background-color: #F4AF5F;
+  padding: 10px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 1);
+}
+
+
+.team-section {
+  background-color: #FFFFFF;
+  padding: 50px 0;
+}
+.team-section h1 {
+  font-size: 5em;
+  color: #48D6E9 ;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+.team-section p {
+  font-size: 1.2em;
+  color: rgb(8, 8, 66);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.team-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: url("foto.jpg") no-repeat;
+  background-size: contain;
+  background-position: left top;
+  padding: 50px;
+}
+
+.team-section h1, 
+.team-section p {
+  text-align: right;
+  margin: 0;
+  flex: 1;
+}
+
+
+
+
+.paquete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.paquete img {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.paquete:nth-child(even) img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.paquete h3,
+.paquete p {
+  flex: 2;
+}
+
+.paquete img {
+  order: 1;
+  margin-right: 20px;
+}
+
+.paquete img {
+  max-width: 40%;
+}
+
+
+
+
+form {
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border: 2px solid #48D6E9;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+input[type="text"], input[type="email"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #C1CE5A;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #F19446;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #F4AF5F;
+}
+
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #C1CE5A;
+  border-radius: 4px;
+  }
+
+
+
+  /* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del formulario */
+#formulario {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.paso {
+  display: none;
+}
+
+.oculto {
+  display: none;
+}
+
+/* Estilos de los botones */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos del botón para generar PDF */
+#generar-pdf {
+  margin-top: 20px;
+}
+
+/* Estilos del resumen */
+#resumen {
+  background-color: #f2f2;
+}
+
