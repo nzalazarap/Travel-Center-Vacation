@@ -1,3 +1,6 @@
+
+// VALIDACIÓN DE CAMPOS DEL FORM
+
 $(document).ready(function() {
     $("#formulario").validate({
       rules: {
@@ -16,7 +19,8 @@ $(document).ready(function() {
     });
   });
   
-  // Obtener los elementos del DOM
+  // OBTENER LOS ELEMENTOS DEL DOM
+
 const formulario = document.querySelector('#formulario');
 const pasos = formulario.querySelectorAll('.paso');
 const siguienteBotones = formulario.querySelectorAll('button[id^="siguiente"]');
@@ -24,11 +28,11 @@ const anteriorBotones = formulario.querySelectorAll('button[id^="anterior"]');
 const generarPdfBoton = document.querySelector('#generar-pdf');
 
 function mostrarPaso(paso) {
-  // Ocultar todos los pasos
+  // OCULTAR TODOS LOS PASOS
   for (let i = 0; i < pasos.length; i++) {
     pasos[i].classList.add('oculto');
   }
 
-  // Mostrar el paso actual
+  // MOSTRAR EL PASO ACTUAL
   paso.classList.remove('oculto');
 }
