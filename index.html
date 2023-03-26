@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Agencia de Viajes</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	<style>
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #FFFFFF;
+			padding: 10px;
+		}
+		header img {
+			height: 90px;
+			margin-right: 50px;
+		}
+		header .social-media {
+			display: flex;
+			align-items: center;
+		}
+		header .social-media img {
+			height: 90px;
+			margin-right: 15px;
+		}
+		.slider {
+			position: relative;
+		}
+		.slider img {
+			width: 100%;
+			height: auto;
+		}
+		.text-container {
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			transform: translate(-30%, -30%);
+			z-index: 1;
+			text-align: center;
+			color: #FFFFFF;
+			max-width: 30em;
+		}
+		.text-container h1 {
+			font-size: 3em;
+			margin-bottom: 0.5em;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.text-container p {
+			font-size: 1.2em;
+			font-weight: bold;
+			font-family: 'Montserrat', sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<!--CABECERA DE LA PÁGINA. TUVE QUE INCLUIR ALGUNOS ELEMENTOS CSS
+	EN ESTE CÓDIGO PORQUE DE OTRO MODO QUEDABAN LAS IMÁGENES DESALINEADAS.-->
+	<header>
+		<img src="logo travel.png" alt="Logo Travel Center Vacation">
+		<div class="social-media">
+			<a href="#"><img src="ig (2).png" alt="Instagram"></a>
+			<a href="#"><img src="fb (2).png" alt="Facebook"></a>
+			<a href="#"><img src="tw (2).png" alt="Twitter"></a>
+		</div>
+	</header>
+
+	<!--IMAGEN DE FONDO MÁS TÍTULO Y PRESENTACIÓN DE LA EMPRESA-->
+	<div class="slider">
+		<img src="principal2.jpg" alt="Imagen 1">
+		<div class="text-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; text-align: center; color: #FFFFFF; max-width: 30em;">
+			
+			<!--TÍTULO DE LA LANDING Y PRESENTACIÓN DE LA EMPRESA-->
+
+			<h1 class="titulo"></h1>
+			
+			<h1>¡Tu sueño de viajar hecho realidad!</h1>
+	
+			<p class="rectangulo">Bienvenido a 
+				la agencia de viajes que te lleva a los 
+				lugares más hermosos del mundo. 
+				Nuestro objetivo es hacer que cada viaje sea 
+				una experiencia inolvidable y emocionante 
+				que supere todas tus expectativas. 
+				Hace más de 10 años nos dedicamos a explorar 
+				y descubrir los destinos más sorprendentes 
+				del mundo, y a diseñar paquetes de viaje 
+				personalizados que se ajusten a tus 
+				necesidades y preferencias.
+			</p>
+		</div>
+		<div class="overlay"></div>
+	</div>
+	
+	
+
+
+	<section class="team-section" style="background-image: url('fotos.png'); background-position: left; text-align: right;">
+		<h1>Team Travel Center</h1>
+		<p><strong>
+		  ¿Querés hacer de tus sueños una realidad? 
+		  ¡Entonces estás en el lugar correcto! 
+		  Somos el equipo de Travel Center, y estamos aquí para ayudarte a 
+		  descubrir el mundo.
+		  Somos expertos en viajes, apasionados por nuestro trabajo y comprometidos en ofrecerte 
+		  la mejor atención y servicio personalizado. 
+		  Nos encargamos de todo, desde la elección de destinos 
+		  hasta la planificación de actividades y alojamiento, 
+		  para que no tengas que preocuparte por nada.
+		  Además, estamos constantemente actualizándonos en cuanto a 
+		  destinos y tendencias para poder brindarte siempre las 
+		  mejores opciones, y hacemos todo lo posible para que 
+		  tu experiencia de viaje sea única e inolvidable.
+		  En Travel Center, creemos que viajar es una de 
+		  las mejores formas de enriquecer nuestra vida, 
+		  y estamos aquí para hacerlo realidad para vos. 
+		  Así que, ¿qué esperas? ¡Dejanos ayudarte a descubrir 
+		  el mundo y vivir experiencias inolvidables!
+		</strong></p>
+	  </section>
+	  
+	  
+
+	<br
+
+	<div class="caja-formulario">
+		
+		<form id="formulario" method="post">
+		  <label for="nombre">Nombre:</label>
+		  <input type="text" id="nombre" name="nombre">
+	  
+		  <label for="apellido">Apellido:</label>
+		  <input type="text" id="apellido" name="apellido">
+	  
+		  <label for="email">Correo electrónico:</label>
+		  <input type="email" id="email" name="email">
+	  
+		  <label for="mensaje">Mensaje:</label>
+		  <textarea id="mensaje" name="mensaje"></textarea>
+	  
+		  <input type="submit" value="Enviar tu consulta">
+		</form>
+		
+	  </div>
+
+	  
+</div>
+<br
+<div class="paquete">
+	<img src="pack1.png" alt="Paquete turístico 1" class="imagen-izquierda">
+	<div class="contenido-derecha">
+	  <h3>Tours</h3>
+	  <p>Descubrí los mejores destinos del mundo con nuestros tours personalizados.
+		...
+	  </p>
+	  
+	</div>
+  </div>
+  
+  <div class="paquete">
+	<img src="pack2.png" alt="Paquete turístico 2" class="imagen-derecha">
+	<div class="contenido-izquierda">
+	  <h3>Mejores Cruceros </h3>
+	  <p>¿Querés disfrutar de un crucero a medida y al mejor precio? Travel Center ofrece paquetes de vacaciones en crucero diseñados específicamente para satisfacer tus gustos y necesidades, a los precios más bajos disponibles en el mercado.
+		...
+	  </p>
+	  
+	</div>
+  </div>
+  
+  <div class="paquete">
+	<img src="pack3.png" alt="Paquete turístico 3" class="imagen-izquierda">
+	<div class="contenido-derecha">
+	  <h3>Excursiones Únicas </h3>
+	  <p>Ofrecemos una amplia variedad de excursiones diarias regulares y personalizadas con guías multilingües especializados.</p>
+	  
+	</div>
+  </div>
+
+  <!-- Formulario wizard -->
+<form id="formulario">
+	<!-- Paso 1 -->
+	<div class="paso" id="paso1">
+	  <h2>Paso 1: Información personal</h2>
+	  <label for="nombre">Nombre:</label>
+	  <input type="text" id="nombre" name="nombre">
+	  <label for="apellido">Apellido:</label>
+	  <input type="text" id="apellido" name="apellido">
+	  <button id="siguiente1">Siguiente</button>
+	</div>
+	
+	<!-- Paso 2 -->
+	<div class="paso oculto" id="paso2">
+	  <h2>Paso 2: Información del viaje</h2>
+	  <label for="destino">Destino:</label>
+	  <input type="text" id="destino" name="destino">
+	  <label for="fecha">Fecha de viaje:</label>
+	  <input type="date" id="fecha" name="fecha">
+	  <button id="anterior2">Anterior</button>
+	  <button id="siguiente2">Siguiente</button>
+	</div>
+	
+	<!-- Paso 3 -->
+	<div class="paso oculto" id="paso3">
+	  <h2>Paso 3: Opciones del viaje</h2>
+	  <label for="alojamiento">Alojamiento:</label>
+	  <input type="text" id="alojamiento" name="alojamiento">
+	  <label for="transporte">Transporte:</label>
+	  <input type="text" id="transporte" name="transporte">
+	  <button id="anterior3">Anterior</button>
+	  <button id="siguiente3">Siguiente</button>
+	</div>
+	
+	<!-- Paso 4 -->
+	<div class="paso oculto" id="paso4">
+	  <h2>Paso 4: Resumen y exportación a PDF</h2>
+	  <!-- Aquí se mostrará el resumen de los datos ingresados -->
+	  <div id="resumen"></div>
+	  <button id="anterior4">Anterior</button>
+	  <button type="submit">Enviar</button>
+	</div>
+  </form>
+  
+  <!-- Botón para generar PDF -->
+  <button id="generar-pdf" class="oculto">Generar PDF</button>
+  
+  <img src="ciudades.png" alt="Ciudades del mundo">
+  
+  <script>
+	document.querySelector('.titulo').textContent = 'Travel Center Vacation';
+</script>
+
+  
+</body>
+</html>
