@@ -202,7 +202,6 @@
   </div>
 
   <!-- FORMULARIO DE PROCESO ESTILO WIZARD -->
-
 <form id="formulario">
 	<!-- Paso 1 -->
 	<div class="paso" id="paso1">
@@ -211,7 +210,9 @@
 	  <input type="text" id="nombre" name="nombre">
 	  <label for="apellido">Apellido:</label>
 	  <input type="text" id="apellido" name="apellido">
-	  <button id="siguiente1">Siguiente</button>
+	  <div class="botones">
+		<button id="siguiente1">Siguiente</button>
+	  </div>
 	</div>
 	
 	<!-- Paso 2 -->
@@ -221,8 +222,10 @@
 	  <input type="text" id="destino" name="destino">
 	  <label for="fecha">Fecha de viaje:</label>
 	  <input type="date" id="fecha" name="fecha">
-	  <button id="anterior2">Anterior</button>
-	  <button id="siguiente2">Siguiente</button>
+	  <div class="botones">
+		<button id="anterior2">Anterior</button>
+		<button id="siguiente2">Siguiente</button>
+	  </div>
 	</div>
 	
 	<!-- Paso 3 -->
@@ -232,8 +235,10 @@
 	  <input type="text" id="alojamiento" name="alojamiento">
 	  <label for="transporte">Transporte:</label>
 	  <input type="text" id="transporte" name="transporte">
-	  <button id="anterior3">Anterior</button>
-	  <button id="siguiente3">Siguiente</button>
+	  <div class="botones">
+		<button id="anterior3">Anterior</button>
+		<button id="siguiente3">Siguiente</button>
+	  </div>
 	</div>
 	
 	<!-- Paso 4 -->
@@ -241,13 +246,17 @@
 	  <h2>Paso 4: Resumen y exportación a PDF</h2>
 	  <!-- Aquí se mostrará el resumen de los datos ingresados -->
 	  <div id="resumen"></div>
-	  <button id="anterior4">Anterior</button>
-	  <button type="submit">Enviar</button>
+	  <div class="botones">
+		<button id="anterior4">Anterior</button>
+		<button type="submit">Enviar</button>
+	  </div>
 	</div>
   </form>
+
   
   <!-- Botón para generar PDF -->
   <button id="generar-pdf" class="oculto">Generar PDF</button>
+  
 
    <!-- IMAGEN PRINCIPAL SECUNDARIA  -->
    <div class="container">
