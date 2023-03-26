@@ -151,26 +151,37 @@ textarea {
 body {
   font-family: "Roboto", sans-serif;
 }
-
 /* ESTILOS DE FORMULARIO DE PROCESO*/
-
 #formulario {
   width: 80%;
   margin: 0 auto;
 }
 
 .paso {
+  display: block;
+}
+
+.paso:not(:first-child) {
   display: none;
 }
 
-.oculto {
+/* ESTILOS DE FORMULARIO DE PROCESO*/
+#formulario {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.paso {
+  display: block;
+}
+
+.paso:not(:first-child) {
   display: none;
 }
 
 /* ESTILOS DE BOTONES FORM */
-
 button {
-  background-color: #4CAF50;
+  background-color: #F19446 ;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -182,7 +193,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #F19446;
 }
 
 /* ESTILO BOTÓN PDF */
@@ -194,6 +205,8 @@ button:hover {
 #resumen {
   background-color: #f2f2;
 }
+
+
 
 /* ESTILO DE IMAGEN PRINCIPAL SECUNDARIA */
 
