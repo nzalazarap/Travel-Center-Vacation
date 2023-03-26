@@ -33,6 +33,13 @@ function mostrarPaso(paso) {
     pasos[i].classList.add('oculto');
   }
 
+  // AGREGAR EVENTO DE ESCUCHA PARA BOTÓN SIGUIENTE
+for (let i = 0; i < siguienteBotones.length; i++) {
+  siguienteBotones[i].addEventListener('click', function() {
+    mostrarPaso(pasos[i+1]);
+  });
+}
+
   // MOSTRAR EL PASO ACTUAL
   paso.classList.remove('oculto');
 }
