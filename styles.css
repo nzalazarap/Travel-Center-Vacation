@@ -1,9 +1,12 @@
+/* RECUADRO FONDO DE TEXTO DE PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
+
 .rectangulo {
   background-color: #F4AF5F;
   padding: 10px;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 1);
 }
 
+/* PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
 
 .team-section {
   background-color: #FFFFFF;
@@ -43,7 +46,7 @@
 }
 
 
-
+/* PAQUETES TURÍSTICOS */
 
 .paquete {
   display: flex;
@@ -54,7 +57,7 @@
 
 .paquete img {
   flex: 1;
-  margin-right: 30px;
+  margin-right: 0px;
 }
 
 .paquete:nth-child(even) img {
@@ -73,20 +76,20 @@
 }
 
 .paquete img {
-  max-width: 40%;
+  max-width: 30%;
 }
 
 
-
+/* ESTILOS DE FORMULARIO SENCILLO */
 
 form {
   font-family: 'Roboto', sans-serif;
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
   background-color: #FFFFFF;
   padding: 20px;
   border: 2px solid #48D6E9;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 input[type="text"], input[type="email"] {
@@ -125,12 +128,14 @@ textarea {
 
 
 
-  /* Estilos generales */
+  /* ESTILOS GENERALES */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* Estilos del formulario */
+/* ESTILOS DE FORMULARIO DE PROCESO*/
+
 #formulario {
   width: 80%;
   margin: 0 auto;
@@ -144,7 +149,8 @@ body {
   display: none;
 }
 
-/* Estilos de los botones */
+/* ESTILOS DE BOTONES FORM */
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -161,15 +167,17 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Estilos del botón para generar PDF */
+/* ESTILO BOTÓN PDF */
 #generar-pdf {
   margin-top: 20px;
 }
 
-/* Estilos del resumen */
+/* ESTILO DE RESUMEN */
 #resumen {
   background-color: #f2f2;
 }
+
+/* ESTILO DE FOOTER */
 
 .footer {
   background-color: #C1CE5A;
