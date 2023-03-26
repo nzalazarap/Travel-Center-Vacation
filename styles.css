@@ -84,6 +84,17 @@
   max-width: 30%;
 }
 
+/* ESTILOS TÍTULOS Y TEXTOS DE PAQUETES */
+
+.paquete .titulo-paquete {
+  color: #48D6E9; /* color del título */
+  font-family: Montserrat, sans-serif; /* tipo de letra del título */
+}
+
+.paquete .texto-paquete {
+  color: #F19446; /* color del texto */
+  font-family: Open Sans, sans-serif; /* tipo de letra del texto */
+}
 
 
 
