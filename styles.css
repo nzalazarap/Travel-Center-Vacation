@@ -177,6 +177,21 @@ button:hover {
   background-color: #f2f2;
 }
 
+/* ESTILO DE IMAGEN PRINCIPAL SECUNDARIA */
+
+.container {
+  max-width: 999px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.cities-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
+  height: auto;
+}
+
 /* ESTILO DE FOOTER */
 
 .footer {
