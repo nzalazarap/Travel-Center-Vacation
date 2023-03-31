@@ -100,6 +100,15 @@
 
 /* ESTILOS DE FORMULARIO SENCILLO */
 
+.titulo2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #C1CE5A;
+  text-align: center;
+  margin-top: 50px; /* Agregado para dar un espacio entre el título y el formulario */
+}
+
+
 form {
   font-family: 'Roboto', sans-serif;
   max-width: 450px;
