@@ -12,13 +12,12 @@
   cursor: pointer;
 }
 
-/* RECUADRO FONDO DE TEXTO DE PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
-
 .rectangulo {
-  background-color: #F4AF5F;
+  background-color: rgba(244, 175, 95, 0.7);
   padding: 15px;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 1);
 }
+
 
 /* PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
 
@@ -120,15 +119,15 @@
 
 .testimonio {
   width: 20%;
-  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom,  rgba(193,206,90,0.4), rgba(255,255,255,0.4), rgba(72,214,233,0.4), rgba(244,175,95,0.4));
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .foto-testimonio {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
@@ -144,9 +143,10 @@
 }
 
 blockquote {
-  font-style: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   margin-top: 20px;
 }
+
 
 
 /* ESTILOS DE FORMULARIO SENCILLO */
