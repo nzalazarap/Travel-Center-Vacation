@@ -1,3 +1,13 @@
+// CTA ¡QUIERO VIAJAR!
+function enviarConsulta() {
+  var destinatario = "info@travelcenter.com";
+  var asunto = "Consulta de viaje";
+  var cuerpo = "Hola,\n\nEstoy interesado en hacer una consulta sobre un viaje. ¿Podrían ayudarme?\n\nGracias,\n[Nombre]";
+
+  var correo = "mailto:" + destinatario + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo);
+  window.open(correo);
+}
+
 
 // VALIDACIÓN DE CAMPOS DEL FORM
 

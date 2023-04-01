@@ -1,3 +1,17 @@
+/* PRIMER CALL TO ACTION DE LA LANDING */
+.quiero-viajar {
+  background-color: #48D6E9  ; /* Fondo verde */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* RECUADRO FONDO DE TEXTO DE PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
 
 .rectangulo {
@@ -230,3 +244,4 @@ button:hover {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+
