@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Agencia de Viajes</title>
+	<title>Agencia de Viajes Travel Center Vacation</title>
 	<!--VINCULACIÓN DE ESTILOS.-->
 	<link rel="stylesheet" href="styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -144,8 +144,11 @@
   
 	<div class="caja-formulario">
 	  <form id="formulario" method="post">
-		<label for="nombre">Nombre y apellido</label>
+		<label for="nombre">Nombre</label>
 		<input type="text" id="nombre" name="nombre">
+
+		<label for="nombre">Apellido</label>
+		<input type="text" id="nombre" name="apellido>
   
 		<label for="email">Correo electrónico:</label>
 		<input type="email" id="email" name="email">
@@ -264,21 +267,23 @@
 
 
   <!-- FORMULARIO DE PROCESO ESTILO WIZARD -->
-<form id="formulario">
-	<!-- Paso 1 -->
+<form id="formularioproceso">
+	<!-- PASO 1 INICIA SOLICITANDO NOMBRE Y APELLIDO Y UNA VEZ QUE SE COMPETE
+	CORRECTAMENTE, SE LO AUTORIZA A ACCEDER AL SIGUIENTE PASO-->
 	<div class="paso" id="paso1">
 		<h2>Cotizá tu viaje</h2>
 	  <h2>Paso 1: Información personal</h2>
-	  <label for="nombre">Nombre:</label>
-	  <input type="text" id="nombre" name="nombre">
-	  <label for="apellido">Apellido:</label>
-	  <input type="text" id="apellido" name="apellido">
+	  <label for="nombreuser">Nombre y apellido:</label>
+	  <input type="text" id="nombre" name="nombreuser">
+	  <label for="nombre">Correo electrónico:</label>
+	  <input type="text" id="correo" name="correo">
 	  <div class="botones">
 		<button id="siguiente1">Siguiente</button>
 	  </div>
 	</div>
 	
-	<!-- Paso 2 -->
+	<!-- PASO 2, SE SOLICITA INFORMACIÓN MÀS ESPECÍFICA PARA IR ARMANDO LA
+	COTIZACIÓN DEL VIAJE SEGÚN DESTINO Y ÉPOCA DEL AÑO -->
 	<div class="paso oculto" id="paso2">
 	  <h2>Paso 2: Información del viaje</h2>
 	  <label for="destino">Destino:</label>
@@ -291,7 +296,9 @@
 	  </div>
 	</div>
 	
-	<!-- Paso 3 -->
+	<!-- PASO 3, UNA VEZ HABIENDO COMPLETADO EL PASO ANTERIOR, SE ACCEDE
+	A ESTA PARTE DEL FORM, EN LA QUE SE SOLICITA LA ELECCIÓN DE TIPO DE
+ALOJAMIENTO Y TRANSPORTE -->
 	<div class="paso oculto" id="paso3">
 	  <h2>Paso 3: Opciones del viaje</h2>
 	  <label for="alojamiento">Alojamiento:</label>
@@ -304,10 +311,10 @@
 	  </div>
 	</div>
 	
-	<!-- Paso 4 -->
+	<!-- PASO 4, YA EN ESTE PASO SE REALIZA LA EXPORTACIÓN AL PDF -->
 	<div class="paso oculto" id="paso4">
 	  <h2>Paso 4: Resumen y exportación a PDF</h2>
-	  <!-- Aquí se mostrará el resumen de los datos ingresados -->
+	  <!-- ACÀ SE MUESTRA EL RESUMEN DE LOS DATOS INGRESADOS -->
 	  <div id="resumen"></div>
 	  <div class="botones">
 		<button id="anterior4">Anterior</button>
@@ -317,12 +324,12 @@
   </form>
 
   
-  <!-- Botón para generar PDF -->
+  <!-- BOTÓN  PARA GENERAR PDF -->
   <button id="generar-pdf" class="oculto">Generar PDF</button>
   
 
-   <!-- IMAGEN PRINCIPAL SECUNDARIA PARA OTORGARLE UN TOQUE ATRACTIVO A LA LANDING, PERO
-OCUPANDO MENOS ESPACIO QUE LA IMAGEN PRINCIPAL -->
+   <!-- IMAGEN PRINCIPAL SECUNDARIA PARA OTORGARLE UN TOQUE ATRACTIVO A LA 
+	LANDING, PERO OCUPANDO MENOS ESPACIO QUE LA IMAGEN PRINCIPAL -->
    <div class="container">
 	<img src="ciudades.png" alt="Ciudades del mundo" class="cities-image">
 </div>
