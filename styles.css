@@ -1,3 +1,11 @@
+  /* ESTILOS GENERALES */
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+
+
 /* PRIMER CALL TO ACTION DE LA LANDING */
 .quiero-viajar {
   background-color: #48D6E9  ; /* Fondo verde */
@@ -17,6 +25,8 @@
   padding: 15px;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 1);
 }
+
+
 
 
 /* PRESENTACIÓN DEL EQUIPO DE LA EMPRESA */
@@ -57,6 +67,8 @@
   margin: 0;
   flex: 1;
 }
+
+
 
 
 /* PAQUETES TURÍSTICOS */
@@ -113,7 +125,7 @@
 
 .testimonios-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -122,7 +134,7 @@
   background-image: linear-gradient(to bottom,  rgba(193,206,90,0.4), rgba(255,255,255,0.4), rgba(72,214,233,0.4), rgba(244,175,95,0.4));
   border-radius: 10px;
   padding: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .foto-testimonio {
@@ -134,7 +146,7 @@
 }
 
 .foto-testimonio img {
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
@@ -149,71 +161,75 @@ blockquote {
 
 
 
-/* ESTILOS DE FORMULARIO SENCILLO */
 
-.titulo2 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #C1CE5A;
-  text-align: center;
-  margin-top: 50px; /* Agregado para dar un espacio entre el título y el formulario */
+
+/* ESTILOS DE FORMULARIO BÁSICO */
+
+.contenedor-formulario {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-
-form {
-  font-family: 'Roboto', sans-serif;
-  max-width: 450px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
+.contenedor-formulario .caja-formulario {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  border: 2px solid #48D6E9;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
-input[type="text"], input[type="email"] {
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #C1CE5A;
-  border-radius: 4px;
+
+
+
+
+contenedor-formulario {
+font-family: 'Roboto', sans-serif;
+max-width: 450px;
+margin: 0 auto;
+background-color: #FFFFFF;
+padding: 20px;
+border: 2px solid #48D6E9;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+font-family: 'Open Sans', sans-serif;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid #C1CE5A;
+border-radius: 4px;
 }
 
 input[type="submit"] {
-  background-color: #F19446;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
+background-color: #48D6E9;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Open Sans', sans-serif;
 }
 
 input[type="submit"]:hover {
-  background-color: #F4AF5F;
-}
-
-textarea {
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #C1CE5A;
-  border-radius: 4px;
-  }
-
-
-
-  /* ESTILOS GENERALES */
-
-body {
-  font-family: "Roboto", sans-serif;
+background-color: #F4AF5F;
 }
 
 
-/* ESTILOS DE FORMULARIO DE PROCESO*/
+
+
+
+
+/* ESTILOS DE FORMULARIO DE PROCESO ESTILO WIZARD*/
 #formulario {
   width: 80%;
   margin: 0 auto;
@@ -229,7 +245,7 @@ body {
 
 /* ESTILOS DE BOTONES FORM */
 button {
-  background-color: #F19446 ;
+  background-color: #48D6E9  ;
   color: white;
   padding: 12px 20px;
   border: none;
