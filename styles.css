@@ -119,11 +119,11 @@
 }
 
 .testimonio {
-  width: 30%;
+  width: 20%;
   background-color: #f7f7f7;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
 }
 
 .foto-testimonio {
@@ -144,8 +144,8 @@
 }
 
 blockquote {
-  font-style: italic;
-  margin-top: 10px;
+  font-style: 'Roboto';
+  margin-top: 20px;
 }
 
 
