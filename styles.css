@@ -110,6 +110,43 @@
   font-family: Open Sans, sans-serif; /* tipo de letra del texto */
 }
 
+/* ESTILOS DE FORMULARIO TESTIMONIOS DE CLIENTES */
+
+.testimonios-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.testimonio {
+  width: 30%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.foto-testimonio {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.foto-testimonio img {
+  width: 100%;
+  height: auto;
+}
+
+.informacion-testimonio {
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  margin-top: 10px;
+}
 
 
 /* ESTILOS DE FORMULARIO SENCILLO */
