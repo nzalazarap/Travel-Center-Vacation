@@ -8,7 +8,7 @@
 
 /* PRIMER CALL TO ACTION DE LA LANDING */
 .quiero-viajar {
-  background-color: #48D6E9  ; /* Fondo verde */
+  background-color: #48D6E9; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -19,6 +19,11 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+
+/* RECTÁNGULO DONDE SE VA EL TEXTO DE PRESENTACIÓN DE LA EMPRESA
+SE  INTENTÓ QUE TENGA COLOR, PARA QUE RESALTE, PERO CON ALGO DE OPACIDAD COMO 
+PARA QUE SEA LEGIBLE */
 
 .rectangulo {
   background-color: rgba(244, 175, 95, 0.7);
@@ -67,63 +72,6 @@
   margin: 0;
   flex: 1;
 }
-
-
-
-
-
-
-/* ESTILOS TÍTULOS Y TEXTOS DE PAQUETES */
-
-.paquete .titulo-paquete {
-  color: #48D6E9; /* color del título */
-  font-family: Montserrat, sans-serif; /* tipo de letra del título */
-}
-
-.paquete .texto-paquete {
-  color: #F19446; /* color del texto */
-  font-family: Open Sans, sans-serif; /* tipo de letra del texto */
-}
-
-/* ESTILOS DE FORMULARIO TESTIMONIOS DE CLIENTES */
-
-.testimonios-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.testimonio {
-  width: 20%;
-  background-image: linear-gradient(to bottom,  rgba(193,206,90,0.4), rgba(255,255,255,0.4), rgba(72,214,233,0.4), rgba(244,175,95,0.4));
-  border-radius: 10px;
-  padding: 30px;
-  margin-bottom: 10px;
-}
-
-.foto-testimonio {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.foto-testimonio img {
-  width: 110%;
-  height: auto;
-}
-
-.informacion-testimonio {
-  text-align: center;
-}
-
-blockquote {
-  font-family: 'Roboto', sans-serif;
-  margin-top: 20px;
-}
-
-
 
 
 
@@ -187,6 +135,67 @@ font-family: 'Open Sans', sans-serif;
 input[type="submit"]:hover {
 background-color: #F4AF5F;
 }
+
+
+
+
+/* ESTILOS TÍTULOS Y TEXTOS DE PAQUETES */
+
+.paquete .titulo-paquete {
+  color: #48D6E9; /* color del título */
+  font-family: Montserrat, sans-serif; /* tipo de letra del título */
+}
+
+.paquete .texto-paquete {
+  color: #F19446; /* color del texto */
+  font-family: Open Sans, sans-serif; /* tipo de letra del texto */
+}
+
+
+
+
+
+/* ESTILOS DE TESTIMONIOS DE CLIENTES */
+
+.testimonios-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonio {
+  width: 20%;
+  background-image: linear-gradient(to bottom,  rgba(193,206,90,0.4), rgba(255,255,255,0.4), rgba(72,214,233,0.4), rgba(244,175,95,0.4));
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.foto-testimonio {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.foto-testimonio img {
+  width: 110%;
+  height: auto;
+}
+
+.informacion-testimonio {
+  text-align: center;
+}
+
+blockquote {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+
+
+
 
 
 
