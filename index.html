@@ -62,9 +62,10 @@
 </head>
 <body>
 	<!--CABECERA DE LA PÁGINA. TUVE QUE INCLUIR ALGUNOS ELEMENTOS CSS
-	EN ESTE CÓDIGO PORQUE DE OTRO MODO QUEDABAN LAS IMÁGENES DESALINEADAS.-->
+	EN ESTE HTML PORQUE DE OTRO MODO, QUEDABAN LAS IMÁGENES DESALINEADAS.-->
 	<header>
 		<img src="logo travel.png" alt="Logo Travel Center Vacation">
+
 <!--PRIMER CALL TO ACTION PARA INCITAR A LA COMPRA DEL SERVICIO. EL SEGUNDO PASO SERÁ
 	EL FORMULARIO SIMPRE Y EL TERCER CALL TO ACTION SERÍA EL FORM DE PROCESO.-->
 	<button class="quiero-viajar" onclick="enviarConsulta()"><strong>¡Quiero viajar!</strong></button>
@@ -107,9 +108,9 @@
 	</div>
 	
 	
- <!-- PRESENTACIÓN PERSONAL (EQUIPO DE LA EMPRESA) (LA PRESENTACIÓN
-		PERSONAL, SE ACLARÓ EN LA CLASE DE REFUERZO DEL 31/3 QUE NO ERA OBLIGATORIA, QUE SE PODÍA
-		REALIZAR MEDIANTE LINK EXTERNO) -->
+ <!-- PRESENTACIÓN PERSONAL (EQUIPO DE LA EMPRESA) 
+	(LA PRESENTACIÓN PERSONAL, SE ACLARÓ EN LA CLASE DE REFUERZO DEL 31/3 QUE NO ERA OBLIGATORIA, 
+		QUE SE PODÍA REALIZAR MEDIANTE LINK EXTERNO) -->
 
 	<section class="team-section" style="background-image: url('fotos.png'); background-position: left; text-align: right;">
 		<h1>Team Travel Center</h1>
@@ -139,8 +140,8 @@
 	  
 
 	  <!-- FORMULARIO BÁSICO -->
-<div class="contenedor-formulario" style="background-image: url('#');">
-	
+<div class="contenedor-formulario" style="background-image: url('#');"> 
+	<!--LE IBA A PONER UNA IMAGEN DE FONDO, PERO NO ME GUSTÓ Y ESTOY EVALUANDO DE QUE OTRO MODO IMPLEMENTARLO-->
   
 	<div class="caja-formulario">
 	  <form id="formulario" method="post">
@@ -167,10 +168,12 @@
 	  
 </div>
 
+
+<!--ACÁ HABÍA PROBADO CON TEXTO E IMAGE, DE VARIAS FORMAS. PERO NO ME GUSTA COMO QUEDA. AÚN EVALUANDO OPCIONES-->
 <div class="paquete">
 	
 	<div class="contenido-izquierda">
-	  <h2 class="titulo-paquete">Tours inolvidables</h2>
+	  <h2 class="titulo-paquete">Tours inolvidables </h2>
 
 	  <p class="texto-paquete">¿Querés vivir una experiencia de viaje inigualable? 
 		En nuestra agencia de viajes, nos encargamos de crear tours 
@@ -267,9 +270,12 @@
 
 
   <!-- FORMULARIO DE PROCESO ESTILO WIZARD -->
+
 <form id="formularioproceso">
+
 	<!-- PASO 1 INICIA SOLICITANDO NOMBRE Y APELLIDO Y UNA VEZ QUE SE COMPETE
 	CORRECTAMENTE, SE LO AUTORIZA A ACCEDER AL SIGUIENTE PASO-->
+
 	<div class="paso" id="paso1">
 		<h2>Cotizá tu viaje</h2>
 	  <h2>Paso 1: Información personal</h2>
@@ -284,6 +290,7 @@
 	
 	<!-- PASO 2, SE SOLICITA INFORMACIÓN MÀS ESPECÍFICA PARA IR ARMANDO LA
 	COTIZACIÓN DEL VIAJE SEGÚN DESTINO Y ÉPOCA DEL AÑO -->
+
 	<div class="paso oculto" id="paso2">
 	  <h2>Paso 2: Información del viaje</h2>
 	  <label for="destino">Destino:</label>
@@ -299,6 +306,7 @@
 	<!-- PASO 3, UNA VEZ HABIENDO COMPLETADO EL PASO ANTERIOR, SE ACCEDE
 	A ESTA PARTE DEL FORM, EN LA QUE SE SOLICITA LA ELECCIÓN DE TIPO DE
 ALOJAMIENTO Y TRANSPORTE -->
+
 	<div class="paso oculto" id="paso3">
 	  <h2>Paso 3: Opciones del viaje</h2>
 	  <label for="alojamiento">Alojamiento:</label>
@@ -312,9 +320,12 @@ ALOJAMIENTO Y TRANSPORTE -->
 	</div>
 	
 	<!-- PASO 4, YA EN ESTE PASO SE REALIZA LA EXPORTACIÓN AL PDF -->
+
 	<div class="paso oculto" id="paso4">
 	  <h2>Paso 4: Resumen y exportación a PDF</h2>
+
 	  <!-- ACÀ SE MUESTRA EL RESUMEN DE LOS DATOS INGRESADOS -->
+
 	  <div id="resumen"></div>
 	  <div class="botones">
 		<button id="anterior4">Anterior</button>
@@ -325,17 +336,20 @@ ALOJAMIENTO Y TRANSPORTE -->
 
   
   <!-- BOTÓN  PARA GENERAR PDF -->
+
   <button id="generar-pdf" class="oculto">Generar PDF</button>
   
 
    <!-- IMAGEN PRINCIPAL SECUNDARIA PARA OTORGARLE UN TOQUE ATRACTIVO A LA 
 	LANDING, PERO OCUPANDO MENOS ESPACIO QUE LA IMAGEN PRINCIPAL -->
+
    <div class="container">
 	<img src="ciudades.png" alt="Ciudades del mundo" class="cities-image">
 </div>
 
-   <!-- EL FOOTER INCLUYE ENLACE A REPOSITORIO A MODO DE PRESENTACIÓN PERSONAL, TAL COMO SE SOLICITÓ EN LA CLASE DE REFUERZO DEL 31 DE MARZO
-EN LA QUE SE ACLARÓ QUE LA PRESENTACIÓN, DENTRO DE LA LANDING, PODÍA SER DE LA EMPRESA, COMO MUCHOS HABÍAMOS ENTENDIDO
+   <!-- EL FOOTER INCLUYE ENLACE A REPOSITORIO A MODO DE PRESENTACIÓN PERSONAL, TAL COMO SE 
+	SOLICITÓ EN LA CLASE DE REFUERZO DEL 31 DE MARZO EN LA QUE SE ACLARÓ QUE LA PRESENTACIÓN, 
+	DENTRO DE LA LANDING, PODÍA SER DE LA EMPRESA, COMO MUCHOS HABÍAMOS ENTENDIDO
 Y NO UNA PRESENTACIÓN PERSONAL DEL ALUMNO. CABE DESTACAR QUE DICHA PRESENTACIÓN
 FIGURARÁ EN LA WIKI DE GITHUB JUNTO A LA PRESENTACIÓN DEL PROYECTO-->
 

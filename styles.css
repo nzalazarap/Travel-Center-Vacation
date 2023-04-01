@@ -22,7 +22,7 @@
 
 
 /* RECTÁNGULO DONDE SE VA EL TEXTO DE PRESENTACIÓN DE LA EMPRESA
-SE  INTENTÓ QUE TENGA COLOR, PARA QUE RESALTE, PERO CON ALGO DE OPACIDAD COMO 
+SE  INTENTÓ QUE TENGA COLOR, PERO NO EXAGERADO, PARA QUE RESALTE, PERO CON ALGO DE OPACIDAD COMO 
 PARA QUE SEA LEGIBLE */
 
 .rectangulo {
@@ -77,32 +77,16 @@ PARA QUE SEA LEGIBLE */
 
 /* ESTILOS DE FORMULARIO BÁSICO */
 
+
 .contenedor-formulario {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.contenedor-formulario .caja-formulario {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  width: 80%;
-  margin: auto;
-  margin-top: 50px;
-}
-
-
-
-
-
-contenedor-formulario {
 font-family: 'Roboto', sans-serif;
-max-width: 450px;
+max-width: 650px;
 margin: 0 auto;
 background-color: #FFFFFF;
 padding: 20px;
 border: 2px solid #48D6E9;
 box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-}
+} 
 
 
 
@@ -142,16 +126,26 @@ background-color: #F4AF5F;
 /* ESTILOS TÍTULOS Y TEXTOS DE PAQUETES */
 
 .paquete .titulo-paquete {
-  color: #48D6E9; /* color del título */
-  font-family: Montserrat, sans-serif; /* tipo de letra del título */
+  color: #48D6E9; 
+  font-family: Montserrat, sans-serif; 
 }
 
-.paquete .texto-paquete {
-  color: #F19446; /* color del texto */
-  font-family: Open Sans, sans-serif; /* tipo de letra del texto */
+.paquete h2 {
+  font-size: 3em;
+  color: #48D6E9 ;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
 }
 
-
+.paquete p {
+  font-size: 1.2em;
+  color: #F19446;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 30em;
+  margin: 0 auto;
+}
 
 
 
@@ -192,8 +186,6 @@ blockquote {
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
 }
-
-
 
 
 

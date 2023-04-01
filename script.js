@@ -68,6 +68,7 @@ const generarPdfBoton = document.querySelector('#generar-pdf');
 
 function mostrarPaso(paso) {
   // OCULTAR TODOS LOS PASOS
+  
   for (let i = 0; i < pasos.length; i++) {
     pasos[i].classList.add('oculto');
   }
@@ -80,11 +81,13 @@ for (let i = 0; i < siguienteBotones.length; i++) {
 }
 
   // MOSTRAR EL PASO ACTUAL
+
   paso.classList.remove('oculto');
 }
 
 
 // OBTENER LOS ELEMENTOS DEL DOM
+
 const formularioproceso = document.querySelector('#formulario');
 const nombreuser = document.querySelector('#nombre');
 const correo = document.querySelector('#correo');
@@ -94,6 +97,7 @@ const alojamiento = document.querySelector('#alojamiento');
 const transporte = document.querySelector('#transporte');
 
 // AGREGO EL ELEMENTO SUBMIT AL FORM
+
 formulario.addEventListener('submit', (event) => {
   event.preventDefault(); // PREVENGO QUE EL FORM NO SE ENVIE DE MANERA AUTOMÁTICA
   
