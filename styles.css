@@ -21,6 +21,7 @@
 }
 
 
+
 /* RECTÁNGULO DONDE SE VA EL TEXTO DE PRESENTACIÓN DE LA EMPRESA
 SE  INTENTÓ QUE TENGA COLOR, PERO NO EXAGERADO, PARA QUE RESALTE, PERO CON ALGO DE OPACIDAD COMO 
 PARA QUE SEA LEGIBLE */
@@ -118,6 +119,7 @@ font-family: 'Open Sans', sans-serif;
 input[type="submit"]:hover {
 background-color: #F4AF5F;
 }
+
 
 
 
