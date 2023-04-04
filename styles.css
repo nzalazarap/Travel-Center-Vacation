@@ -208,7 +208,13 @@ blockquote {
 
 
 
-
+.cotizar h3 {
+  font-size: 2em;
+  color: #48D6E9;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
 
 
 
