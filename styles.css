@@ -121,7 +121,21 @@ background-color: #F4AF5F;
 }
 
 
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.image {
+  width: 45%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
 
 
 /* ESTILOS TÍTULOS Y TEXTOS DE PAQUETES */
