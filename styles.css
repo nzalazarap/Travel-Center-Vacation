@@ -4,7 +4,26 @@
     font-family: "Roboto", sans-serif;
   }
   
-
+  /* CABECERA IMÁGENES LOGO Y RRSS */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+  }
+  header img {
+    height: 90px;
+    margin-right: 50px;
+  }
+  header .social-media {
+    display: flex;
+    align-items: center;
+  }
+  header .social-media img {
+    height: 90px;
+    margin-right: 15px;
+  }
 
 /* PRIMER CALL TO ACTION DE LA LANDING */
 .quiero-saber {
