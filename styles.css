@@ -137,10 +137,6 @@ background-color: #F4AF5F;
 
 /* ESTILOS TÍTULO DE MEDIO DE PAGO */
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
 .image-container h3 {
   font-size: 2em;
   color: #48D6E9;
@@ -157,6 +153,22 @@ h3 {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
 }
+
+/* ESTILOS TEXTO DE PACKS TURÍSTICOS */
+.texto-pack {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.texto-pack p {
+  font-size: 1.1em;
+  color: #878481;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
 
 /* ESTILOS TÍTULO SOBRE CLIENTES - PRESENTACIÓN DE TESTIMONIOS */
 .clientes h3 {
@@ -219,7 +231,10 @@ blockquote {
 }
 
 .texto-gris {
-	color: #878481;
+  font-size: 1.1em;
+  color: #878481;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 
