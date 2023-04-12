@@ -224,6 +224,12 @@ blockquote {
 
 
 /* ESTILOS DE FORMULARIO DE PROCESO ESTILO WIZARD*/
+
+#formularioproceso h2 {
+  color: #878481;
+}
+
+
 #formulario {
   width: 80%;
   margin: 0 auto;
