@@ -362,11 +362,10 @@ button:hover {
 /* ESTILO DE FOOTER */
 
 .footer {
-  background-color: #C1CE5A;
-  color: #FFFFFF;
+  background-image: radial-gradient(rgb(255, 255, 255),);
+  color: #878481;
   padding: 20px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-
