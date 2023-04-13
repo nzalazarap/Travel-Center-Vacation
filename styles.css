@@ -362,10 +362,51 @@ button:hover {
 /* ESTILO DE FOOTER */
 
 .footer {
-  background-image: radial-gradient(rgb(255, 255, 255),);
-  color: #878481;
-  padding: 20px;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: #878481;
+} 
+
+.footer-top {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
+
+.footer-top p {
+  margin: 0;
+}
+
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.footer-social a img {
+  max-width: 100%;
+}
+
+
+
+.footer-bottom {
+  background-image: linear-gradient(to bottom,  rgba(193,206,90,0.4), rgba(255,255,255,0.4), rgba(72,214,233,0.4), rgba(244,175,95,0.4));
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #878481;
+  margin: 0;
+}
+
+
