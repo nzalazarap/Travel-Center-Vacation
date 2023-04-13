@@ -175,8 +175,17 @@ input[type="submit"]:hover {
 background-color: #F4AF5F;
 }
 
+/* ESTILO IMAGEN DESTINOS*/
+.image-container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
 
-
+.img-right {
+	float: right;
+	margin-left: 20px;
+}
 
 /* ESTILOS DE LOS MEDIOS DE PAGO */
 
