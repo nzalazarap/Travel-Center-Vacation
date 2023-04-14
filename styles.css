@@ -129,6 +129,17 @@ PARA QUE SEA LEGIBLE */
   flex: 1;
 }
 
+.form1 {
+  text-align: center;
+}
+
+.form1 h3 {
+  font-size: 2em;
+  color: #48D6E9;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
 
 /* ESTILOS DE FORMULARIO BÁSICO */
 
