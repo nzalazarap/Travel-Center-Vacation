@@ -237,6 +237,9 @@ background-color: #F4AF5F;
   justify-content: center;
   margin-bottom: 30px;
   padding: 20px;
+  padding-left: 140px; 
+  padding-right: 140px;
+  text-align: justify;  
 }
 
 .texto-pack  {
@@ -316,6 +319,9 @@ blockquote {
   color: #878481;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  padding-left: 150px; 
+  padding-right: 150px;
+  
 }
 
 
