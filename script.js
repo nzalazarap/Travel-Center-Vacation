@@ -12,7 +12,7 @@ function enviarConsulta() {
 // VALIDACIÓN DE CAMPOS DEL FORM  
 
 const form = document.getElementById("formulario");
-const nombre = document.getElementById("nombre");
+const nombres = document.getElementById("nombres");
 const apellido = document.getElementById("apellido");
 const email = document.getElementById("email");
 const mensaje = document.getElementById("mensaje");
@@ -89,7 +89,7 @@ for (let i = 0; i < siguienteBotones.length; i++) {
 // OBTENER LOS ELEMENTOS DEL DOM
 
 const formularioproceso = document.querySelector('#formulario');
-const nombreuser = document.querySelector('#nombre');
+const nombre = document.querySelector('#nombre');
 const correo = document.querySelector('#correo');
 const destino = document.querySelector('#destino');
 const fecha = document.querySelector('#fecha');
