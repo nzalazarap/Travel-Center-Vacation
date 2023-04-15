@@ -322,16 +322,25 @@ blockquote {
   text-align: center;
   padding-left: 150px; 
   padding-right: 150px;
-  
+  margin-bottom: 40px;
 }
 
 
-/* ESTILOS DE FORMULARIO DE PROCESO ESTILO WIZARD*/
+/* ESTILOS DE FORMULARIO PARA COTIZAR SERVICIO TURÍSTICO*/
 
 #formularioproceso h4 {
   color: #878481;
 }
 
+#formularioproceso {
+  font-family: 'Roboto', sans-serif;
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border: 2px solid #48D6E9;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
 
 #formulario {
   width: 80%;
