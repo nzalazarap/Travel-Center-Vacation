@@ -98,7 +98,7 @@ PARA QUE SEA LEGIBLE */
 }
 .team-section h2 {
   font-size: 2.2em;
-  color: #48D6E9 ;
+  color: #42C1D2 ;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
@@ -134,9 +134,10 @@ PARA QUE SEA LEGIBLE */
   text-align: center;
 }
 
+/* ESTILO DEL TÍTULO DEL FORMULARIO BÁSICO*/
 .form1 h3 {
   font-size: 2em;
-  color: #48D6E9;
+  color: #42C1D2;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
@@ -154,8 +155,6 @@ padding: 20px;
 border: 2px solid #48D6E9;
 box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 } 
-
-
 
 label {
 display: block;
@@ -217,7 +216,7 @@ background-color: #F4AF5F;
 
 .image-container h3 {
   font-size: 2em;
-  color: #48D6E9;
+  color: #42C1D2;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
@@ -226,7 +225,7 @@ background-color: #F4AF5F;
 /* ESTILOS TÍTULO DE PACKS */
 .packs h3 {
   font-size: 2em;
-  color: #48D6E9;
+  color: #42C1D2;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
@@ -258,7 +257,7 @@ background-color: #F4AF5F;
 /* ESTILOS TÍTULO SOBRE CLIENTES - PRESENTACIÓN DE TESTIMONIOS */
 .clientes h3 {
   font-size: 2em;
-  color: #48D6E9;
+  color: #42C1D2;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
@@ -309,7 +308,7 @@ blockquote {
 
 .cotizar h3 {
   font-size: 2em;
-  color: #48D6E9;
+  color: #42C1D2;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
