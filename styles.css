@@ -355,6 +355,11 @@ blockquote {
   display: none;
 }
 
+/* ESTILO DE CONTENEDOR DE BOTONES */
+#contenedor-botones {
+  text-align: right;
+}
+
 /* ESTILOS DE BOTONES FORM */
 button {
   background-color: #48D6E9  ;
@@ -363,7 +368,6 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
   margin-top: 20px;
   margin-left: 10px;
 }
@@ -374,7 +378,7 @@ button:hover {
 
 /* ESTILO BOTÓN PDF */
 #generar-pdf {
-  margin-top: 20px;
+  margin-left: 0;
 }
 
 /* ESTILO DE RESUMEN */
